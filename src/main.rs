@@ -1,6 +1,5 @@
-mod task_3;
+mod task_5;
 
 fn main() {
-    let result = task_3::get_result(600851475143);
-    println!("{result}");
+    println!("{}", task_5::get_result(20));
 }
